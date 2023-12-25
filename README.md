@@ -7,28 +7,52 @@ Assurez-vous d'avoir installé Docker sur votre machine. Vous pouvez le téléch
 
 1. **Téléchargement de l'image SonarQube**
    Exécutez la commande suivante dans votre terminal pour télécharger l'image officielle de SonarQube depuis Docker Hub :
+   
 *docker pull sonarqube*
+
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/e7a96486-eed6-4e32-ba72-2388f0073303)
+
 2.**Démarrage de SonarQube**
+
 Utilisez la commande suivante pour démarrer un conteneur SonarQube :
+
 *docker run -d --name sonarqube -p 9000:9000 sonarqube*
+
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/0bd102f9-bc4a-47e7-b242-44ad71d2ac3d)
+
 Cela lancera SonarQube en arrière-plan, exposant les ports 9000 (interface web).
+
 3.**Accès à l'interface web**
+
 Accédez à http://localhost:9000. 
+
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/726c9670-cfa2-440c-9b61-288be346f664)
+
 Les informations de connexion par défaut sont les suivantes :
+
 Nom d'utilisateur : admin
+
 Mot de passe : admin
-![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/0cafbc34-509e-402d-8420-f9f95686f0b3)
+
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/eaf8f235-a2aa-4141-acea-b1bc2c849bb1)
+
 Vous serez invité à changer votre mot de passe après la première connexion.
+
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/2eb3fb09-53af-455f-951c-ed040fce812c)
-interface 
+
+**Interface de sonarqube:**
+
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/29143cdb-249a-45bd-8b59-a2df43f54717)
-creation d'un nouveau projet:
+
+4.**Creation d'un nouveau projet:**
+
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/46a3cec7-8b87-4ebb-ac59-f3420c8042fa)
+
+**Donner un nom au projet:**
+
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/ca96d861-71e1-4a85-96ec-d8c7b7249c37)
+
+**Generation de Token :**
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/9333270b-173e-40c5-8498-a0d8c67f52c1)
 
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/028e494e-fe2a-4cd0-adc6-69ec31c57541)
