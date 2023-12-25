@@ -140,7 +140,7 @@ Le plug-in JaCoCo Maven permet d’accéder à l’agent d’exécution JaCoCo,
 qui enregistre les données de couverture d’exécution et crée un rapport de couverture de code.
 
 
-*<plugin>
+<plugin>
     <groupId>org.jacoco</groupId>
     <artifactId>jacoco-maven-plugin</artifactId>
     <version>${jacoco.version}</version>
@@ -159,7 +159,7 @@ qui enregistre les données de couverture d’exécution et crée un rapport de 
             </goals>
         </execution>
     </executions>
-</plugin>*
+</plugin>
 
 
 
