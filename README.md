@@ -1,6 +1,6 @@
 # Installation de SonarQube dans Docker
 
-Ce guide vous aidera à déployer SonarQube à l'aide de Docker, une plateforme de conteneurisation populaire. Suivez ces étapes simples pour démarrer rapidement.
+Ce guide vous aidera à déployer SonarQube  et l'analyse de votre code  à l'aide de Docker, une plateforme de conteneurisation populaire. Suivez ces étapes simples pour démarrer rapidement.
 
 ## Prérequis
 Assurez-vous d'avoir installé Docker sur votre machine. Vous pouvez le télécharger depuis [le site officiel de Docker](https://www.docker.com/products/docker-desktop/).
