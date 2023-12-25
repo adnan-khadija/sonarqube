@@ -63,7 +63,10 @@ Par la suit il faut choisir de quelle façon l’on veut analyser notre projet d
 
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/ca96d861-71e1-4a85-96ec-d8c7b7249c37)
 
+
+
 **Generation de Token :**
+
 
 
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/9333270b-173e-40c5-8498-a0d8c67f52c1)
@@ -89,12 +92,15 @@ Pour pouvoir exécuter la commande sans problème dans l’invite de commande es
 
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/660d62b9-fe58-4615-b9ab-a7852a8fa032)
 
+
  **Intégration de JACOCO**
+ 
 
 Actuellement SonarQube ne donne aucune information sur la couverture des tests et c’est parce qu’il manque un outil ou une dépendance dans 
 le projet qui fournit un rapport sur les tests.
 
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/94496cf4-f79e-4650-baea-654d1cd423b7)
+
 
 **Ajout de dependency JACOCO**
 
@@ -105,7 +111,9 @@ le projet qui fournit un rapport sur les tests.
     <scope>test</scope>
 </dependency>*
 
+
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/1c27a5dd-0864-48fd-a376-cf279bef766f)
+
 
 Modifier les properties dans le fichier pom.xml comme suit :
 
@@ -156,6 +164,7 @@ qui enregistre les données de couverture d’exécution et crée un rapport de 
 
 
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/d16fe012-8441-4d05-9ddb-fe5127e2470e)
+
 
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/32dbcece-17ea-4a3e-b7f3-69c2ef5b77ec)
 
