@@ -106,6 +106,7 @@ le projet qui fournit un rapport sur les tests.
 
 Modifier les properties dans le fichier pom.xml comme suit :
 
+
 *<properties>
     <java.version>17</java.version>
     <!-- JaCoCo Properties -->
@@ -116,7 +117,10 @@ Modifier les properties dans le fichier pom.xml comme suit :
     <sonar.language>java</sonar.language>
 </properties>*
 
+
+
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/a871ae23-ec30-4396-bb01-702af16ea72c)
+
 
 Ajouter le plugin JACOCO. Le plug-in JaCoCo Maven permet d’accéder à l’agent d’exécution JaCoCo,
 qui enregistre les données de couverture d’exécution et crée un rapport de couverture de code.
@@ -141,6 +145,9 @@ qui enregistre les données de couverture d’exécution et crée un rapport de 
         </execution>
     </executions>
 </plugin>*
+
+
+
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/6f744a4d-9060-427f-a1ae-9a8ebf892b48)
 
 
