@@ -164,11 +164,10 @@ qui enregistre les données de couverture d’exécution et crée un rapport de 
 
 
 
+
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/6f744a4d-9060-427f-a1ae-9a8ebf892b48)
 
 
-
-![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/d16fe012-8441-4d05-9ddb-fe5127e2470e)
 
 
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/32dbcece-17ea-4a3e-b7f3-69c2ef5b77ec)
