@@ -48,7 +48,10 @@ Vous serez invité à changer votre mot de passe après la première connexion.
 
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/46a3cec7-8b87-4ebb-ac59-f3420c8042fa)
 
+
+
 Par la suit il faut choisir de quelle façon l’on veut analyser notre projet dans notre cas nous allons le faire localement.
+
 
 
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/66a8918a-7826-4a68-9db9-0c739590f2e9)
