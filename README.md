@@ -133,8 +133,11 @@ Modifier les properties dans le fichier pom.xml comme suit :
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/a871ae23-ec30-4396-bb01-702af16ea72c)
 
 
-Ajouter le plugin JACOCO. Le plug-in JaCoCo Maven permet d’accéder à l’agent d’exécution JaCoCo,
+**Ajouter le plugin JACOCO:**
+
+Le plug-in JaCoCo Maven permet d’accéder à l’agent d’exécution JaCoCo,
 qui enregistre les données de couverture d’exécution et crée un rapport de couverture de code.
+
 
 *<plugin>
     <groupId>org.jacoco</groupId>
@@ -156,6 +159,7 @@ qui enregistre les données de couverture d’exécution et crée un rapport de 
         </execution>
     </executions>
 </plugin>*
+
 
 
 
