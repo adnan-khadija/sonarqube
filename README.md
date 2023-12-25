@@ -48,27 +48,53 @@ Vous serez invité à changer votre mot de passe après la première connexion.
 
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/46a3cec7-8b87-4ebb-ac59-f3420c8042fa)
 
+Par la suit il faut choisir de quelle façon l’on veut analyser notre projet dans notre cas nous allons le faire localement.
+
+
+![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/66a8918a-7826-4a68-9db9-0c739590f2e9)
+
+
+
 **Donner un nom au projet:**
+
 
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/ca96d861-71e1-4a85-96ec-d8c7b7249c37)
 
 **Generation de Token :**
+
+
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/9333270b-173e-40c5-8498-a0d8c67f52c1)
 
-![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/028e494e-fe2a-4cd0-adc6-69ec31c57541)
 
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/d0e1028e-e301-4741-961c-9181d59bc201)
 
+
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/0561b85d-7a34-4eb3-859d-2351a659f035)
+
 
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/5404904e-9c3c-40cd-a9fc-517c0214f12e)
 
+
+Pour pouvoir exécuter la commande sans problème dans l’invite de commande essayer de mettre la commande sur une seule ligne.
+
+
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/cad3f5fa-1f6f-45b6-b1b1-e0e9699479dd)
+
 
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/4cc29b37-ebeb-4d3a-93ee-844a5e03841f)
 
+
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/660d62b9-fe58-4615-b9ab-a7852a8fa032)
-ajouter le plugin Jacoco:
+
+ **Intégration de JACOCO**
+
+Actuellement SonarQube ne donne aucune information sur la couverture des tests et c’est parce qu’il manque un outil ou une dépendance dans 
+le projet qui fournit un rapport sur les tests.
+
+![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/94496cf4-f79e-4650-baea-654d1cd423b7)
+
+**Ajout de dependency JACOCO**
+
 *<dependency>
     <groupId>org.jacoco</groupId>
     <artifactId>jacoco-maven-plugin</artifactId>
@@ -77,6 +103,8 @@ ajouter le plugin Jacoco:
 </dependency>*
 
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/1c27a5dd-0864-48fd-a376-cf279bef766f)
+
+Modifier les properties dans le fichier pom.xml comme suit :
 
 *<properties>
     <java.version>17</java.version>
@@ -89,8 +117,11 @@ ajouter le plugin Jacoco:
 </properties>*
 
 ![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/a871ae23-ec30-4396-bb01-702af16ea72c)
-*
-<plugin>
+
+Ajouter le plugin JACOCO. Le plug-in JaCoCo Maven permet d’accéder à l’agent d’exécution JaCoCo,
+qui enregistre les données de couverture d’exécution et crée un rapport de couverture de code.
+
+*<plugin>
     <groupId>org.jacoco</groupId>
     <artifactId>jacoco-maven-plugin</artifactId>
     <version>${jacoco.version}</version>
@@ -127,7 +158,3 @@ ajouter le plugin Jacoco:
 
 
 
-
-
-couvrege
-![image](https://github.com/adnan-khadija/sonarqube/assets/147508009/d61ea558-1822-4023-b726-aab85b06754b)
